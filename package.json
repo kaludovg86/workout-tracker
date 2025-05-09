@@ -1,0 +1,12 @@
+{
+  "name": "workout-tracker",
+  "version": "1.0.0",
+  "description": "Workout tracker app for men with L4/L5 disc herniations",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./dist/styles.css --minify",
+    "watch": "tailwindcss -i ./src/input.css -o ./dist/styles.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.10"
+  }
+}
